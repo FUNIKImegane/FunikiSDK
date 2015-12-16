@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C79FE0B1A7DBEB80091F040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C79FE0A1A7DBEB80091F040 /* AppDelegate.swift */; };
+		8C79FE0D1A7DBEB80091F040 /* FunikiSDKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C79FE0C1A7DBEB80091F040 /* FunikiSDKViewController.swift */; };
+		8C79FE121A7DBEB80091F040 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C79FE111A7DBEB80091F040 /* Images.xcassets */; };
+		8C79FE371A7DC0310091F040 /* libFunikiSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C79FE361A7DC0310091F040 /* libFunikiSDK.a */; };
+		8C79FE491A7DC8EC0091F040 /* FunikiSDKExample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C79FE3C1A7DC8EC0091F040 /* FunikiSDKExample.storyboard */; };
+		8C79FE4A1A7DC8EC0091F040 /* Button-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C79FE3E1A7DC8EC0091F040 /* Button-blue@2x.png */; };
+		8C79FE4B1A7DC8EC0091F040 /* Button-green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C79FE3F1A7DC8EC0091F040 /* Button-green@2x.png */; };
+		8C79FE4C1A7DC8EC0091F040 /* Button-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C79FE401A7DC8EC0091F040 /* Button-off@2x.png */; };
+		8C79FE4D1A7DC8EC0091F040 /* Button-red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C79FE411A7DC8EC0091F040 /* Button-red@2x.png */; };
+		8C79FE4E1A7DC8EC0091F040 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C79FE421A7DC8EC0091F040 /* Default-568h@2x.png */; };
+		8C79FE4F1A7DC8EC0091F040 /* GraphFrame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C79FE431A7DC8EC0091F040 /* GraphFrame@2x.png */; };
+		8C79FE501A7DC8EC0091F040 /* Illuminate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C79FE441A7DC8EC0091F040 /* Illuminate@2x.png */; };
+		8C79FE511A7DC8EC0091F040 /* Pairing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C79FE451A7DC8EC0091F040 /* Pairing@2x.png */; };
+		8C79FE521A7DC8EC0091F040 /* SDKlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C79FE461A7DC8EC0091F040 /* SDKlogo@2x.png */; };
+		8C79FE531A7DC8EC0091F040 /* SDKtab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C79FE471A7DC8EC0091F040 /* SDKtab@2x.png */; };
+		8C79FE541A7DC8EC0091F040 /* Sensor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C79FE481A7DC8EC0091F040 /* Sensor@2x.png */; };
+		8C79FE561A7DC9800091F040 /* FunikiSDKMotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C79FE551A7DC9800091F040 /* FunikiSDKMotionViewController.swift */; };
+		8C79FE581A7DC9C80091F040 /* FunikiDevicePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C79FE571A7DC9C80091F040 /* FunikiDevicePickerViewController.swift */; };
+		8C8E3D1E1A7DD68A00349FA0 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E3D1D1A7DD68A00349FA0 /* Icon-60@2x.png */; };
+		8CA309A01A8C4AB0002A2DD3 /* Funiki.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3099E1A8C4AB0002A2DD3 /* Funiki.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C79FE051A7DBEB80091F040 /* FunikiSDKExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunikiSDKExampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C79FE091A7DBEB80091F040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C79FE0A1A7DBEB80091F040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C79FE0C1A7DBEB80091F040 /* FunikiSDKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunikiSDKViewController.swift; sourceTree = "<group>"; };
+		8C79FE111A7DBEB80091F040 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8C79FE361A7DC0310091F040 /* libFunikiSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFunikiSDK.a; sourceTree = "<group>"; };
+		8C79FE3C1A7DC8EC0091F040 /* FunikiSDKExample.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FunikiSDKExample.storyboard; sourceTree = "<group>"; };
+		8C79FE3E1A7DC8EC0091F040 /* Button-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-blue@2x.png"; sourceTree = "<group>"; };
+		8C79FE3F1A7DC8EC0091F040 /* Button-green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-green@2x.png"; sourceTree = "<group>"; };
+		8C79FE401A7DC8EC0091F040 /* Button-off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-off@2x.png"; sourceTree = "<group>"; };
+		8C79FE411A7DC8EC0091F040 /* Button-red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-red@2x.png"; sourceTree = "<group>"; };
+		8C79FE421A7DC8EC0091F040 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8C79FE431A7DC8EC0091F040 /* GraphFrame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GraphFrame@2x.png"; sourceTree = "<group>"; };
+		8C79FE441A7DC8EC0091F040 /* Illuminate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Illuminate@2x.png"; sourceTree = "<group>"; };
+		8C79FE451A7DC8EC0091F040 /* Pairing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pairing@2x.png"; sourceTree = "<group>"; };
+		8C79FE461A7DC8EC0091F040 /* SDKlogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SDKlogo@2x.png"; sourceTree = "<group>"; };
+		8C79FE471A7DC8EC0091F040 /* SDKtab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SDKtab@2x.png"; sourceTree = "<group>"; };
+		8C79FE481A7DC8EC0091F040 /* Sensor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sensor@2x.png"; sourceTree = "<group>"; };
+		8C79FE551A7DC9800091F040 /* FunikiSDKMotionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunikiSDKMotionViewController.swift; sourceTree = "<group>"; };
+		8C79FE571A7DC9C80091F040 /* FunikiDevicePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunikiDevicePickerViewController.swift; sourceTree = "<group>"; };
+		8C8E3D1D1A7DD68A00349FA0 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		8CA3099E1A8C4AB0002A2DD3 /* Funiki.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Funiki.m; sourceTree = "<group>"; };
+		8CA3099F1A8C4AB0002A2DD3 /* Funiki.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Funiki.h; sourceTree = "<group>"; };
+		8CB4B2821A7F87D700A279D2 /* FunikiSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunikiSDK.h; sourceTree = "<group>"; };
+		8CB4B2831A7F87D700A279D2 /* MADiscoveredPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADiscoveredPeripheral.h; sourceTree = "<group>"; };
+		8CB4B2841A7F87D700A279D2 /* MAFunikiAccelerationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFunikiAccelerationData.h; sourceTree = "<group>"; };
+		8CB4B2851A7F87D700A279D2 /* MAFunikiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFunikiManager.h; sourceTree = "<group>"; };
+		8CB4B2861A7F87D700A279D2 /* MAFunikiMotionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFunikiMotionData.h; sourceTree = "<group>"; };
+		8CB4B2871A7F87D700A279D2 /* MAFunikiRotationRateData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFunikiRotationRateData.h; sourceTree = "<group>"; };
+		8CD20D641A89EA250034EDB1 /* FunikiSDKExampleSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunikiSDKExampleSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C79FE021A7DBEB80091F040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C79FE371A7DC0310091F040 /* libFunikiSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C79FDFC1A7DBEB80091F040 = {
+			isa = PBXGroup;
+			children = (
+				8CD20D641A89EA250034EDB1 /* FunikiSDKExampleSwift-Bridging-Header.h */,
+				8C79FE2D1A7DC0310091F040 /* FunikiSDK */,
+				8C79FE071A7DBEB80091F040 /* FunikiSDKExampleSwift */,
+				8C79FE061A7DBEB80091F040 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C79FE061A7DBEB80091F040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C79FE051A7DBEB80091F040 /* FunikiSDKExampleSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C79FE071A7DBEB80091F040 /* FunikiSDKExampleSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8C79FE0A1A7DBEB80091F040 /* AppDelegate.swift */,
+				8C79FE0C1A7DBEB80091F040 /* FunikiSDKViewController.swift */,
+				8C79FE551A7DC9800091F040 /* FunikiSDKMotionViewController.swift */,
+				8C79FE571A7DC9C80091F040 /* FunikiDevicePickerViewController.swift */,
+				8C79FE3C1A7DC8EC0091F040 /* FunikiSDKExample.storyboard */,
+				8C79FE3D1A7DC8EC0091F040 /* SDKImage */,
+				8C79FE111A7DBEB80091F040 /* Images.xcassets */,
+				8C79FE081A7DBEB80091F040 /* Supporting Files */,
+			);
+			path = FunikiSDKExampleSwift;
+			sourceTree = "<group>";
+		};
+		8C79FE081A7DBEB80091F040 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C79FE091A7DBEB80091F040 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C79FE2D1A7DC0310091F040 /* FunikiSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8CB4B2821A7F87D700A279D2 /* FunikiSDK.h */,
+				8CA3099F1A8C4AB0002A2DD3 /* Funiki.h */,
+				8CA3099E1A8C4AB0002A2DD3 /* Funiki.m */,
+				8CB4B2831A7F87D700A279D2 /* MADiscoveredPeripheral.h */,
+				8CB4B2841A7F87D700A279D2 /* MAFunikiAccelerationData.h */,
+				8CB4B2851A7F87D700A279D2 /* MAFunikiManager.h */,
+				8CB4B2861A7F87D700A279D2 /* MAFunikiMotionData.h */,
+				8CB4B2871A7F87D700A279D2 /* MAFunikiRotationRateData.h */,
+				8C79FE361A7DC0310091F040 /* libFunikiSDK.a */,
+			);
+			path = FunikiSDK;
+			sourceTree = "<group>";
+		};
+		8C79FE3D1A7DC8EC0091F040 /* SDKImage */ = {
+			isa = PBXGroup;
+			children = (
+				8C8E3D1D1A7DD68A00349FA0 /* Icon-60@2x.png */,
+				8C79FE3E1A7DC8EC0091F040 /* Button-blue@2x.png */,
+				8C79FE3F1A7DC8EC0091F040 /* Button-green@2x.png */,
+				8C79FE401A7DC8EC0091F040 /* Button-off@2x.png */,
+				8C79FE411A7DC8EC0091F040 /* Button-red@2x.png */,
+				8C79FE421A7DC8EC0091F040 /* Default-568h@2x.png */,
+				8C79FE431A7DC8EC0091F040 /* GraphFrame@2x.png */,
+				8C79FE441A7DC8EC0091F040 /* Illuminate@2x.png */,
+				8C79FE451A7DC8EC0091F040 /* Pairing@2x.png */,
+				8C79FE461A7DC8EC0091F040 /* SDKlogo@2x.png */,
+				8C79FE471A7DC8EC0091F040 /* SDKtab@2x.png */,
+				8C79FE481A7DC8EC0091F040 /* Sensor@2x.png */,
+			);
+			path = SDKImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C79FE041A7DBEB80091F040 /* FunikiSDKExampleSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C79FE241A7DBEB80091F040 /* Build configuration list for PBXNativeTarget "FunikiSDKExampleSwift" */;
+			buildPhases = (
+				8C79FE011A7DBEB80091F040 /* Sources */,
+				8C79FE021A7DBEB80091F040 /* Frameworks */,
+				8C79FE031A7DBEB80091F040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunikiSDKExampleSwift;
+			productName = FunikiSDKExampleSwift;
+			productReference = 8C79FE051A7DBEB80091F040 /* FunikiSDKExampleSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C79FDFD1A7DBEB80091F040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Matilde Inc.";
+				TargetAttributes = {
+					8C79FE041A7DBEB80091F040 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 8C79FE001A7DBEB80091F040 /* Build configuration list for PBXProject "FunikiSDKExampleSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = 8C79FDFC1A7DBEB80091F040;
+			productRefGroup = 8C79FE061A7DBEB80091F040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C79FE041A7DBEB80091F040 /* FunikiSDKExampleSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C79FE031A7DBEB80091F040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C79FE491A7DC8EC0091F040 /* FunikiSDKExample.storyboard in Resources */,
+				8C79FE501A7DC8EC0091F040 /* Illuminate@2x.png in Resources */,
+				8C79FE121A7DBEB80091F040 /* Images.xcassets in Resources */,
+				8C8E3D1E1A7DD68A00349FA0 /* Icon-60@2x.png in Resources */,
+				8C79FE4B1A7DC8EC0091F040 /* Button-green@2x.png in Resources */,
+				8C79FE521A7DC8EC0091F040 /* SDKlogo@2x.png in Resources */,
+				8C79FE4F1A7DC8EC0091F040 /* GraphFrame@2x.png in Resources */,
+				8C79FE541A7DC8EC0091F040 /* Sensor@2x.png in Resources */,
+				8C79FE4C1A7DC8EC0091F040 /* Button-off@2x.png in Resources */,
+				8C79FE4D1A7DC8EC0091F040 /* Button-red@2x.png in Resources */,
+				8C79FE4E1A7DC8EC0091F040 /* Default-568h@2x.png in Resources */,
+				8C79FE4A1A7DC8EC0091F040 /* Button-blue@2x.png in Resources */,
+				8C79FE511A7DC8EC0091F040 /* Pairing@2x.png in Resources */,
+				8C79FE531A7DC8EC0091F040 /* SDKtab@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C79FE011A7DBEB80091F040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C79FE581A7DC9C80091F040 /* FunikiDevicePickerViewController.swift in Sources */,
+				8C79FE561A7DC9800091F040 /* FunikiSDKMotionViewController.swift in Sources */,
+				8C79FE0D1A7DBEB80091F040 /* FunikiSDKViewController.swift in Sources */,
+				8CA309A01A8C4AB0002A2DD3 /* Funiki.m in Sources */,
+				8C79FE0B1A7DBEB80091F040 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C79FE221A7DBEB80091F040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C79FE231A7DBEB80091F040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C79FE251A7DBEB80091F040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = FunikiSDKExampleSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FunikiSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fun-iki.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FunikiSDKExampleSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C79FE261A7DBEB80091F040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = FunikiSDKExampleSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FunikiSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fun-iki.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FunikiSDKExampleSwift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C79FE001A7DBEB80091F040 /* Build configuration list for PBXProject "FunikiSDKExampleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C79FE221A7DBEB80091F040 /* Debug */,
+				8C79FE231A7DBEB80091F040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C79FE241A7DBEB80091F040 /* Build configuration list for PBXNativeTarget "FunikiSDKExampleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C79FE251A7DBEB80091F040 /* Debug */,
+				8C79FE261A7DBEB80091F040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C79FDFD1A7DBEB80091F040 /* Project object */;
+}

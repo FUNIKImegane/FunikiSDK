@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C8B0D971A89D48F006EC535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8B0D961A89D48F006EC535 /* AppDelegate.swift */; };
+		8C8B0D991A89D48F006EC535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8B0D981A89D48F006EC535 /* ViewController.swift */; };
+		8C8B0D9C1A89D48F006EC535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8B0D9A1A89D48F006EC535 /* Main.storyboard */; };
+		8C8B0D9E1A89D48F006EC535 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8B0D9D1A89D48F006EC535 /* Images.xcassets */; };
+		8C9BA88E1A89D4E4008426B0 /* libFunikiSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9BA8871A89D4E4008426B0 /* libFunikiSDK.a */; };
+		8CA3099A1A8C4858002A2DD3 /* Funiki.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA309991A8C4858002A2DD3 /* Funiki.m */; };
+		8CD20D621A89DA6F0034EDB1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD20D611A89DA6F0034EDB1 /* Default-568h@2x.png */; };
+		8CD20D661A89EC760034EDB1 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD20D651A89EC760034EDB1 /* Icon-60@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C4BD39B1A89D88A002750B6 /* FunikiSDKEasyExampleSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunikiSDKEasyExampleSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		8C4BD39C1A89D8B7002750B6 /* Funiki.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Funiki.h; sourceTree = "<group>"; };
+		8C8B0D911A89D48F006EC535 /* FunikiSDKEasyExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunikiSDKEasyExampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8B0D951A89D48F006EC535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C8B0D961A89D48F006EC535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C8B0D981A89D48F006EC535 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C8B0D9B1A89D48F006EC535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C8B0D9D1A89D48F006EC535 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8C9BA8861A89D4E4008426B0 /* FunikiSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunikiSDK.h; sourceTree = "<group>"; };
+		8C9BA8871A89D4E4008426B0 /* libFunikiSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFunikiSDK.a; sourceTree = "<group>"; };
+		8C9BA8881A89D4E4008426B0 /* MADiscoveredPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADiscoveredPeripheral.h; sourceTree = "<group>"; };
+		8C9BA8891A89D4E4008426B0 /* MAFunikiAccelerationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFunikiAccelerationData.h; sourceTree = "<group>"; };
+		8C9BA88A1A89D4E4008426B0 /* MAFunikiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFunikiManager.h; sourceTree = "<group>"; };
+		8C9BA88B1A89D4E4008426B0 /* MAFunikiMotionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFunikiMotionData.h; sourceTree = "<group>"; };
+		8C9BA88C1A89D4E4008426B0 /* MAFunikiRotationRateData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFunikiRotationRateData.h; sourceTree = "<group>"; };
+		8CA309991A8C4858002A2DD3 /* Funiki.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Funiki.m; sourceTree = "<group>"; };
+		8CD20D611A89DA6F0034EDB1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8CD20D651A89EC760034EDB1 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C8B0D8E1A89D48F006EC535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9BA88E1A89D4E4008426B0 /* libFunikiSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C8B0D881A89D48F006EC535 = {
+			isa = PBXGroup;
+			children = (
+				8C4BD39B1A89D88A002750B6 /* FunikiSDKEasyExampleSwift-Bridging-Header.h */,
+				8C9BA8831A89D4E4008426B0 /* FunikiSDK */,
+				8C8B0D931A89D48F006EC535 /* FunikiSDKEasyExampleSwift */,
+				8C8B0D921A89D48F006EC535 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C8B0D921A89D48F006EC535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C8B0D911A89D48F006EC535 /* FunikiSDKEasyExampleSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C8B0D931A89D48F006EC535 /* FunikiSDKEasyExampleSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8CD20D651A89EC760034EDB1 /* Icon-60@2x.png */,
+				8CD20D611A89DA6F0034EDB1 /* Default-568h@2x.png */,
+				8C8B0D961A89D48F006EC535 /* AppDelegate.swift */,
+				8C8B0D981A89D48F006EC535 /* ViewController.swift */,
+				8C8B0D9A1A89D48F006EC535 /* Main.storyboard */,
+				8C8B0D9D1A89D48F006EC535 /* Images.xcassets */,
+				8C8B0D941A89D48F006EC535 /* Supporting Files */,
+			);
+			path = FunikiSDKEasyExampleSwift;
+			sourceTree = "<group>";
+		};
+		8C8B0D941A89D48F006EC535 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C8B0D951A89D48F006EC535 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C9BA8831A89D4E4008426B0 /* FunikiSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8C4BD39C1A89D8B7002750B6 /* Funiki.h */,
+				8CA309991A8C4858002A2DD3 /* Funiki.m */,
+				8C9BA8861A89D4E4008426B0 /* FunikiSDK.h */,
+				8C9BA8871A89D4E4008426B0 /* libFunikiSDK.a */,
+				8C9BA8881A89D4E4008426B0 /* MADiscoveredPeripheral.h */,
+				8C9BA8891A89D4E4008426B0 /* MAFunikiAccelerationData.h */,
+				8C9BA88A1A89D4E4008426B0 /* MAFunikiManager.h */,
+				8C9BA88B1A89D4E4008426B0 /* MAFunikiMotionData.h */,
+				8C9BA88C1A89D4E4008426B0 /* MAFunikiRotationRateData.h */,
+			);
+			path = FunikiSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C8B0D901A89D48F006EC535 /* FunikiSDKEasyExampleSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8B0DB01A89D48F006EC535 /* Build configuration list for PBXNativeTarget "FunikiSDKEasyExampleSwift" */;
+			buildPhases = (
+				8C8B0D8D1A89D48F006EC535 /* Sources */,
+				8C8B0D8E1A89D48F006EC535 /* Frameworks */,
+				8C8B0D8F1A89D48F006EC535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunikiSDKEasyExampleSwift;
+			productName = FunikiSDKEasyExampleSwift;
+			productReference = 8C8B0D911A89D48F006EC535 /* FunikiSDKEasyExampleSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C8B0D891A89D48F006EC535 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Matilde Inc.";
+				TargetAttributes = {
+					8C8B0D901A89D48F006EC535 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 8C8B0D8C1A89D48F006EC535 /* Build configuration list for PBXProject "FunikiSDKEasyExampleSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C8B0D881A89D48F006EC535;
+			productRefGroup = 8C8B0D921A89D48F006EC535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C8B0D901A89D48F006EC535 /* FunikiSDKEasyExampleSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C8B0D8F1A89D48F006EC535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8B0D9C1A89D48F006EC535 /* Main.storyboard in Resources */,
+				8C8B0D9E1A89D48F006EC535 /* Images.xcassets in Resources */,
+				8CD20D621A89DA6F0034EDB1 /* Default-568h@2x.png in Resources */,
+				8CD20D661A89EC760034EDB1 /* Icon-60@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C8B0D8D1A89D48F006EC535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8B0D991A89D48F006EC535 /* ViewController.swift in Sources */,
+				8CA3099A1A8C4858002A2DD3 /* Funiki.m in Sources */,
+				8C8B0D971A89D48F006EC535 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C8B0D9A1A89D48F006EC535 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C8B0D9B1A89D48F006EC535 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C8B0DAE1A89D48F006EC535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C8B0DAF1A89D48F006EC535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C8B0DB11A89D48F006EC535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunikiSDKEasyExampleSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FunikiSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fun-iki.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FunikiSDKEasyExampleSwift-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		8C8B0DB21A89D48F006EC535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunikiSDKEasyExampleSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FunikiSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fun-iki.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FunikiSDKEasyExampleSwift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C8B0D8C1A89D48F006EC535 /* Build configuration list for PBXProject "FunikiSDKEasyExampleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8B0DAE1A89D48F006EC535 /* Debug */,
+				8C8B0DAF1A89D48F006EC535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8B0DB01A89D48F006EC535 /* Build configuration list for PBXNativeTarget "FunikiSDKEasyExampleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8B0DB11A89D48F006EC535 /* Debug */,
+				8C8B0DB21A89D48F006EC535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C8B0D891A89D48F006EC535 /* Project object */;
+}
