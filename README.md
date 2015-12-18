@@ -15,6 +15,7 @@
 
 | |ソースコード|ライセンス|
 |:--|--:|:--:|
+|align left|align right|align center|
 |2.1|iOSプロジェクトファイル|MIT|
 |a|b|c|
 
