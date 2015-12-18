@@ -11,9 +11,14 @@
 
 #2. ソフトウェアのソースコード
 ソフトウェアのソースコードは、以下の各ライセンスまたは条件に基づき公開されます。
-| |ソースコード|ライセンス｜　　
-| |iOSプロジェクトデータ|MIT|  
-
+| Left align | Right align | Center align |
+|:-----------|------------:|:------------:|
+| This       |        This |     This     |
+| column     |      column |    column    |
+| will       |        will |     will     |
+| be         |          be |      be      |
+| left       |       right |    center    |
+| aligned    |     aligned |   aligned    |
 
 
 
