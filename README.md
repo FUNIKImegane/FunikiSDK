@@ -62,7 +62,7 @@ SDKの使用方法
 
 | |ソースコード |ライセンス |
 |:--|--:|:--:|
-|2.1|iOSプロジェクトファイル|[Qiita](http://qiita.com "Qiita")|
+|2.1|iOSプロジェクトファイル|[MIT](https://opensource.org/licenses/MIT "MIT")|
 
 
 #3. ハードウェアに関するデータ  
