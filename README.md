@@ -17,7 +17,15 @@
 |:--|--:|:--:|
 |align left|align right|align center|
 |2.1|iOSプロジェクトファイル|MIT|
-|a|b|c|
+
+
+#3 ハードウェアに関するデータ  
+ハードウェアに関する各データは、以下の各ライセンスまたは条件に基づき公開されます。  
+
+| |データ|ライセンス|
+|:--|--:|:--:|
+|align left|align right|align center|
+|3.1|MDKの3Dデータ（雰囲気メガネのアタッチメントバーツ作製のためのフレームの形状データを意味します）|Creative Commons License BY-SA 4.0 International|
 
 
 # 雰囲気メガネSDK
