@@ -14,7 +14,9 @@
 ソフトウェアのソースコードは、以下の各ライセンスまたは条件に基づき公開されます。  
 
 |            |ソースコード             |ライセンス                               |
-|2.1         |iOSプロジェクトファイル  |MIT[https://opensource.org/licenses/MIT] |
+|2.1         |iOSプロジェクトファイル  | |
+
+
 | This       |        This |     This     |
 | column     |      column |    column    |
 | will       |        will |     will     |
