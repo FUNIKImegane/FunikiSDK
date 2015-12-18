@@ -70,7 +70,8 @@ SDKの使用方法
 
 | |データ|ライセンス|
 |:--|--:|:--:|
-|3.1|MDKの3Dデータ（雰囲気メガネのアタッチメントバーツ作製のためのフレームの形状データを意味します）|Creative Commons License BY-SA 4.0 International|
+|3.1|MDKの3Dデータ  
+（雰囲気メガネのアタッチメントバーツ作製のためのフレームの形状データを意味します）|Creative Commons License BY-SA 4.0 International|
 
 
 #4. 特許  
