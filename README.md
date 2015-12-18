@@ -61,7 +61,7 @@ SDKの使用方法
 ソフトウェアのソースコードは、以下の各ライセンスまたは条件に基づき公開されます。  
 
 | |ソースコード |ライセンス |
-|:--|--:|:--:|
+|:--:|:--:|:--:|
 |2.1|iOSプロジェクトファイル|[MIT](https://opensource.org/licenses/MIT "MIT")|
 
 
@@ -69,7 +69,7 @@ SDKの使用方法
 ハードウェアに関する各データは、以下の各ライセンスまたは条件に基づき公開されます。  
 
 | |データ|ライセンス|
-|:--|--:|:--:|
+|:--:|:--:|:--:|
 |3.1|MDKの3Dデータ （雰囲気メガネのフレームの形状データを意味します）|[Creative Commons License BY-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons License BY-SA 4.0 International")|
 
 #4. 特許  
