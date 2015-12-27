@@ -24,6 +24,21 @@ The data for the hardware of SDK and/or MDK are released under the following lic
 |:--:|:--:|:--:|
 |3.1|3D data (the configuration data for each of the parts used in the attachment parts of FUN’IKI glasses)|[Creative Commons License BY-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons License BY-SA 4.0 International")|  
 
+# Patents  
+The Company grants Users a free-of-charge, non-exclusive, non-transferable and non-sub-licensable license (without any restriction of territory or time) to use the Company’s inventions (including registered patent inventions and pending patent inventions) provided that (i)such usage is necessary for Users to use the source codes and the data in accordance with the licenses provided under sections 2 and 3 and (ii) such usage is not in violation of section 1.2.  
+
+# Trademarks and Other Contents  
+5.1 The following trademark is under procedure of application for trademark.　　  
+　　Trademark: 雰囲気メガネ (Japan)  
+　　Application number: 2014-064478　　  
+5.2 The “Intellectual Property Rights” (hereinafter used to refer to any rights already owned or to obtain or apply for registration of such rights) which includes copyright (including the rights specified in articles 27, 28 and other articles of the Japanese Copyright Act; the same apply hereinafter), patent rights, utility model rights, design rights, trademark rights, and other intellectual property rights in and to the trademarks and other contents of the Company are owned by the Company unless the Policy stipulates otherwise.　　 
+5.3 Users may not use the trademarks and other contents in any way without prior written permission by the Company.　　 
+5.4 To obtain the permission stipulated the preceding section 5.3., please contact the below Email address.　　 
+　　Contact : info@fun-iki.com　　
+　　
+# Superiority of the individual Licenses  
+In the event of discrepancy between the provisions of this Policy and the provisions of the licenses regarding the source codes and data provided under sections 2 and 3 of this Policy, the provisions of the licenses regarding the source codes and data provided under sections 2 and 3 shall prevail unless provided otherwise.  
+
 
 
 
