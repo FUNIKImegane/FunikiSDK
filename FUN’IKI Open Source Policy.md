@@ -20,9 +20,9 @@ The source codes for the software of SDK and/or MDK are released under the follo
 # Data for Hardware  
 The data for the hardware of SDK and/or MDK are released under the following licenses or coditions.  
 
-| |データ|ライセンス|
+| |data|icenses or coditions|
 |:--:|:--:|:--:|
-|3.1|MDKの3Dデータ （雰囲気メガネのフレームの形状データを意味します）|[Creative Commons License BY-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons License BY-SA 4.0 International")|  
+|3.1|3D data (the configuration data for each of the parts used in the attachment parts of FUN’IKI glasses)|[Creative Commons License BY-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons License BY-SA 4.0 International")|  
 
 
 
