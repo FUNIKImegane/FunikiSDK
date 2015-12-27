@@ -31,9 +31,9 @@ The Company grants Users a free-of-charge, non-exclusive, non-transferable and n
 5.1 The following trademark is under procedure of application for trademark.　　  
 　　Trademark: 雰囲気メガネ (Japan)  
 　　Application number: 2014-064478　　  
-5.2 The “Intellectual Property Rights” (hereinafter used to refer to any rights already owned or to obtain or apply for registration of such rights) which includes copyright (including the rights specified in articles 27, 28 and other articles of the Japanese Copyright Act; the same apply hereinafter), patent rights, utility model rights, design rights, trademark rights, and other intellectual property rights in and to the trademarks and other contents of the Company are owned by the Company unless the Policy stipulates otherwise.　　 
-5.3 Users may not use the trademarks and other contents in any way without prior written permission by the Company.　　 
-5.4 To obtain the permission stipulated the preceding section 5.3., please contact the below Email address.　　 
+5.2 The “Intellectual Property Rights” (hereinafter used to refer to any rights already owned or to obtain or apply for registration of such rights) which includes copyright (including the rights specified in articles 27, 28 and other articles of the Japanese Copyright Act; the same apply hereinafter), patent rights, utility model rights, design rights, trademark rights, and other intellectual property rights in and to the trademarks and other contents of the Company are owned by the Company unless the Policy stipulates otherwise.  
+5.3 Users may not use the trademarks and other contents in any way without prior written permission by the Company.  　　 
+5.4 To obtain the permission stipulated the preceding section 5.3., please contact the below Email address.  　 
 　　Contact : info@fun-iki.com　　
 　　
 # Superiority of the individual Licenses  
@@ -77,9 +77,9 @@ In the event of discrepancy between the provisions of this Policy and the provis
 5.1 以下の商標は、当社の出願中の商標です。  
 　　商標：雰囲気メガネ  
 　　登録番号：商願２０１４ー０６４４７８  
-5.2 本ポリシーに特に定めがない限り、商標等およびコンテンツについて、著作権（著作権法第27条および第28条の権利その他の権利を含みます。以下、同様とします。）、特許権、実用新案権、意匠権、商標権等の知的財産権（それらの権利を取得し、またはそれらの権利につき登録等を出願する権利も含むものとします。以下、総称して「知的財産権」といいます。）その他一切の権利は、当社に帰属します。 
-5.3 商標等およびコンテンツは、当社の事前の書面による許諾を得ない限り、いかなる利用もしてはなりません。  
-5.4 商標等またはコンテンツの利用を希望する場合は、以下のアドレスまでご連絡ください。  
+5.2 本ポリシーに特に定めがない限り、商標等およびコンテンツについて、著作権（著作権法第27条および第28条の権利その他の権利を含みます。以下、同様とします。）、特許権、実用新案権、意匠権、商標権等の知的財産権（それらの権利を取得し、またはそれらの権利につき登録等を出願する権利も含むものとします。以下、総称して「知的財産権」といいます。）その他一切の権利は、当社に帰属します。  
+5.3 商標等およびコンテンツは、当社の事前の書面による許諾を得ない限り、いかなる利用もしてはなりません。    
+5.4 商標等またはコンテンツの利用を希望する場合は、以下のアドレスまでご連絡ください。    
 　　＜連絡先＞ info@fun-iki.com  
 　　　
 #6. 個別のライセンスの優先  
