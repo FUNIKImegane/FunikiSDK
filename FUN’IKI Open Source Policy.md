@@ -45,6 +45,11 @@ In the event of discrepancy between the provisions of this Policy and the provis
 7.3 The Company shall not in any way be responsible for any disputes or damages whatsoever arising in relation to the usage of the source codes and data provided by the Company or the interpretation and application of the Policy among Users or between Users and third parties.  
 7.4 The Company shall not provide any guarantee that the source codes and data will constantly be available on this website at any time. The Company shall not in any way be responsible for any damages caused to Users or third parties that arises from a situation where the Company cannot provide the source codes and data irrespectively of the cause of such situation such as maintenance of this website.　　
 
+#8. Modification of the provision and contents etc.　　  
+8.1 The Company may modify the contents or methods of provision of the source codes and data, the content of the license to use the Company’s inventions, or terminate the provision or the license (hereinafter referred to as the “Modifications”) when the Company deems necessary, without providing prior notice to Users.  
+8.2 The Company shall not be responsible for any disputes between Users and third parties or damages to Users or third parties arising in relation to the Modifications.
+
+
 
 
 # FUN’IKI Open Source Policy(日本語）
