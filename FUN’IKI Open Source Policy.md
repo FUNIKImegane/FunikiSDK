@@ -33,7 +33,7 @@ The Company grants Users a free-of-charge, non-exclusive, non-transferable and n
 　　Application number: 2014-064478　　  
 5.2 The “Intellectual Property Rights” (hereinafter used to refer to any rights already owned or to obtain or apply for registration of such rights) which includes copyright (including the rights specified in articles 27, 28 and other articles of the Japanese Copyright Act; the same apply hereinafter), patent rights, utility model rights, design rights, trademark rights, and other intellectual property rights in and to the trademarks and other contents of the Company are owned by the Company unless the Policy stipulates otherwise.  
 5.3 Users may not use the trademarks and other contents in any way without prior written permission by the Company.  　　 
-5.4 To obtain the permission stipulated the preceding section 5.3., please contact the below Email address.  　 
+5.4 To obtain the permission stipulated the preceding section 5.3., please contact the below Email address.  
 　　Contact : info@fun-iki.com　　
 　　
 # Superiority of the individual Licenses  
