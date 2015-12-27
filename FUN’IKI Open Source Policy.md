@@ -61,7 +61,8 @@ NAMAEMEGANE Inc.
 Prescribed on December 28th, 2015
 
 
-
+  
+  
 # FUN’IKI Open Source Policy(日本語）
 株式会社なまえめがね（以下「当社」といいます。）は、本ポリシーにおいて、「FUN’IKI SDK」（以下「SDK」といいます。）および「FUN'IKI　MDK」（以下「MDK」といいます。）に関するソースコードおよびデータ等の公開内容およびその利用条件等について定めます。
 
