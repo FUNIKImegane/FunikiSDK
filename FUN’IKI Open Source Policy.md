@@ -12,9 +12,11 @@ This policy (“Policy”) of “FUN’IKI Open Source Policy Project” (“Pro
 
 # Source Codes for Software
 The source codes for the software of SDK and/or MDK are released under the following licenses or coditions.  
+
 | |source codes |licenses or coditions |
 |:--:|:--:|:--:|
-|2.1|iOSprojectfile|[MIT](https://opensource.org/licenses/MIT "MIT")|
+|2.1|iOSprojectfile|[MIT](https://opensource.org/licenses/MIT "MIT")|  
+
 
 
 
