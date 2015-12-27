@@ -49,7 +49,13 @@ In the event of discrepancy between the provisions of this Policy and the provis
 8.1 The Company may modify the contents or methods of provision of the source codes and data, the content of the license to use the Company’s inventions, or terminate the provision or the license (hereinafter referred to as the “Modifications”) when the Company deems necessary, without providing prior notice to Users.  
 8.2 The Company shall not be responsible for any disputes between Users and third parties or damages to Users or third parties arising in relation to the Modifications.
 
+#9. Modification of the Policy  
+9.1 The Company may modify the Policy when the Company deems necessary, without providing prior notice to Users.  
+9.2 Users shall be deemed to have granted valid and irrevocable consent to the modified Policy by continuing to download or use the source codes and data, or use the Company’s inventions. However, such modifications shall not affect the contents of the licenses applicable to the source codes and data that are downloaded by Users prior to the modification of the Policy in accordance with the Policy prior to the modification of the Policy.
 
+#10. Governing Law and Jurisdiction
+10.1 Where the Company has provided Users with a translation of the Japanese language version of the Policy (“Japanese Version”), the Japanese Version and a translation will govern the relationship between Users and the Company. In the event of a contradiction between Japanese Version and a translation, the provisions in the Japanese Version shall take precedence over any other translation. The Policy shall be governed by the laws of Japan.  
+10.2 Any disputes that arise from the Policy or are related to the Policy will be governed primarily under the exclusive jurisdiction of the Tokyo District Court or the Tokyo Summary Court.
 
 
 # FUN’IKI Open Source Policy(日本語）
