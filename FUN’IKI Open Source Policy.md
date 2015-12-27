@@ -55,7 +55,11 @@ In the event of discrepancy between the provisions of this Policy and the provis
 
 #10. Governing Law and Jurisdiction
 10.1 Where the Company has provided Users with a translation of the Japanese language version of the Policy (“Japanese Version”), the Japanese Version and a translation will govern the relationship between Users and the Company. In the event of a contradiction between Japanese Version and a translation, the provisions in the Japanese Version shall take precedence over any other translation. The Policy shall be governed by the laws of Japan.  
-10.2 Any disputes that arise from the Policy or are related to the Policy will be governed primarily under the exclusive jurisdiction of the Tokyo District Court or the Tokyo Summary Court.
+10.2 Any disputes that arise from the Policy or are related to the Policy will be governed primarily under the exclusive jurisdiction of the Tokyo District Court or the Tokyo Summary Court.  
+
+NAMAEMEGANE Inc.
+Prescribed on December 28th, 2015
+
 
 
 # FUN’IKI Open Source Policy(日本語）
@@ -118,5 +122,5 @@ In the event of discrepancy between the provisions of this Policy and the provis
 10.1 本ポリシーは、日本語を正文とし、準拠法は日本法とします。  
 10.2 本ポリシーに起因し、または関連する一切の紛争については、訴額に応じて、東京地方裁判所または東京簡易裁判所を第一審の専属的合意管轄裁判所とします。  
 
-2015年11月21日制定  
+2015年12月28日制定  
 株式会社なまえめがね
