@@ -15,7 +15,7 @@ The source codes for the software of SDK and/or MDK are released under the follo
 
 | |source codes |licenses or coditions |
 |:--:|:--:|:--:|
-|2.1|iOSprojectfile|[MIT](https://opensource.org/licenses/MIT "MIT")|  
+|2.1|iOS Project File|[MIT](https://opensource.org/licenses/MIT "MIT")|  
 
 
 
