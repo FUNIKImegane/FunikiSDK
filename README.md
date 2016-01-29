@@ -1,3 +1,9 @@
+# FUN'IKI SDK
+By using the FUN'IKI Ambient Glasses SDK (Software Development Kit), it is possible to link the app you developed with the <FUN'IKI Ambient Glasses> and control how the glasses glow and play sounds. In addition, software development that utilizes data from the various sensors is possible.  
+
+The SDK is free of charge and developed apps can be published freely, so try making a fun, original app.  
+
+In addition, although functionality is limited compared to the SDK, it is possible to simply control the <FUN'IKI Ambient Glasses> using MIDI and OSC.  
 
 # 雰囲気メガネSDK
 雰囲気メガネSDK（ソフトウェア開発キット）を用いれば、ご自分で開発したアプリと〈雰囲気メガネ〉を連携させて、思いのままにメガネを光らせ、音を鳴らすことができます。また、各種センサーのデータを活用したソフトウェアの開発も可能です。SDKは無償であり、開発したアプリは自由に公開できます。ぜひ独創的で楽しいアプリを作ってください。なお、SDKより機能が限られますが、MIDIやOSCを用いて簡単に〈雰囲気メガネ〉をコントロールすることもできます。
