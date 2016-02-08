@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *frequencyLabel;
 @property (weak, nonatomic) IBOutlet UILabel *connectionLabel;
 @property (weak, nonatomic) IBOutlet UILabel *batteryLabel;
+@property (weak, nonatomic) IBOutlet UILabel *sdkVersionLabel;
 
 @end
 
@@ -60,6 +61,7 @@
     
     self.volumeSegmentedControl.selectedSegmentIndex = 2;
     
+    self.sdkVersionLabel.text = [NSString stringWithFormat:@"SDK Version:%@",[MAFunikiManager funikiSDKVersionString]] ;
 }
 
 - (void)viewWillAppear:(BOOL)animated

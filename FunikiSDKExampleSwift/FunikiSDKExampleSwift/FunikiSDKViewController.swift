@@ -14,6 +14,7 @@ class FunikiSDKViewController: UIViewController, MAFunikiManagerDelegate, MAFuni
     @IBOutlet var frequencyLabel:UILabel!
     @IBOutlet var connectionLabel:UILabel!
     @IBOutlet var batteryLabel:UILabel!
+    @IBOutlet weak var sdkVersionLabel: UILabel!
 
     // MARK: -
     func updateConnectionStatus() {
@@ -46,6 +47,8 @@ class FunikiSDKViewController: UIViewController, MAFunikiManagerDelegate, MAFuni
         super.viewDidLoad()
         
         self.volumeSegmentedControl.selectedSegmentIndex = 2
+        self.sdkVersionLabel.text = "SDK Version:" + MAFunikiManager.funikiSDKVersionString()
+        
     }
     
     override func viewWillAppear(animated: Bool) {
