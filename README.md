@@ -12,6 +12,14 @@ In addition, although functionality is limited compared to the SDK, it is possib
 #開発環境
 Xcode 7.2以上
 
+##インストール
+### Cocoapods
+雰囲気メガネSDKはCocoapodsに対応しています。[CocoaPods](http://cocoapods.org).
+Podfileに以下の記述を追加して下さい。
+```
+pod 'Funiki', :git => 'https://github.com/FUNIKImegane/FunikiSDK.git'
+```
+
 #雰囲気メガネSDK 1.0.1で使用できる機能
 -LED、ブザー  
    LEDの色と、その色に変わる遷移時間を指定して、光りをコントロールすることができます。  
