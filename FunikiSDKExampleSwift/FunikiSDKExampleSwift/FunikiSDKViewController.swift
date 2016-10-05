@@ -18,7 +18,7 @@ class FunikiSDKViewController: UIViewController, MAFunikiManagerDelegate, MAFuni
 
     // MARK: -
     func updateConnectionStatus() {
-        if funikiManager.connected {
+        if (funikiManager?.isConnected)! {
             self.connectionLabel.text = "接続済み"
         }else {
             self.connectionLabel.text = "未接続"
@@ -26,17 +26,20 @@ class FunikiSDKViewController: UIViewController, MAFunikiManagerDelegate, MAFuni
     }
     
     func updateBatteryLevel(){
-        switch funikiManager.batteryLevel {
-        case .Unknown:
+        
+        let batt:MAFunikiManagerBatteryLevel = (funikiManager?.batteryLevel)!
+        
+        switch batt {
+        case .unknown:
             self.batteryLabel.text = "バッテリー残量:不明"
             
-        case .Low:
+        case .low:
             self.batteryLabel.text = "バッテリー残量:少ない"
             
-        case .Medium:
+        case .medium:
             self.batteryLabel.text = "バッテリー残量:中"
             
-        case .High:
+        case .high:
             self.batteryLabel.text = "バッテリー残量:多い"
             
         }
@@ -51,28 +54,28 @@ class FunikiSDKViewController: UIViewController, MAFunikiManagerDelegate, MAFuni
         
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
    
-        funikiManager.delegate = self
-        funikiManager.dataDelegate = self
+        funikiManager?.delegate = self
+        funikiManager?.dataDelegate = self
         
         updateConnectionStatus()
         updateBatteryLevel()
-        buzzerFrequencyChanged(nil)
+        buzzerFrequencyChanged(sender: nil)
         
         super.viewWillAppear(animated)
     }
     
 
     // MARK: - MAFunikiManagerDelegate
-    func funikiManagerDidConnect(manager: MAFunikiManager!) {
+    func funikiManagerDidConnect(_ manager: MAFunikiManager!) {
         print("SDK Version\(MAFunikiManager.funikiSDKVersionString())")
         print("Firmware Revision\(manager.firmwareRevision)")
         updateConnectionStatus()
         updateBatteryLevel()
     }
     
-    func funikiManagerDidDisconnect(manager: MAFunikiManager!, error: NSError!) {
+    func funikiManagerDidDisconnect(_ manager: MAFunikiManager!, error: Error!) {
 
         if let actualError = error {
             print(actualError)
@@ -81,45 +84,45 @@ class FunikiSDKViewController: UIViewController, MAFunikiManagerDelegate, MAFuni
         updateBatteryLevel()
     }
     
-    func funikiManager(manager: MAFunikiManager!, didUpdateBatteryLevel batteryLevel: MAFunikiManagerBatteryLevel) {
+    private func funikiManager(manager: MAFunikiManager!, didUpdateBatteryLevel batteryLevel: MAFunikiManagerBatteryLevel) {
         updateBatteryLevel()
     }
     
-    func funikiManager(manager: MAFunikiManager!, didUpdateCentralState state: CBCentralManagerState) {
+    func funikiManager(_ manager: MAFunikiManager!, didUpdateCentralState state: CBCentralManagerState) {
         updateConnectionStatus()
         updateBatteryLevel()
     }
     
     // MARK: - MAFunikiManagerDataDelegate
-    func funikiManager(manager: MAFunikiManager!, didUpdateMotionData motionData: MAFunikiMotionData!) {
+    private func funikiManager(manager: MAFunikiManager!, didUpdateMotionData motionData: MAFunikiMotionData!) {
         print(motionData)
     }
     
-    func funikiManager(manager: MAFunikiManager!, didPushButton buttonEventType: MAFunikiManagerButtonEventType) {
+    func funikiManager(_ manager: MAFunikiManager!, didPushButton buttonEventType: MAFunikiManagerButtonEventType) {
         
     }
     
     // MARK: - Action
     @IBAction func red(sender:AnyObject!) {
-        if (funikiManager.connected){
-            funikiManager.changeLeftColor(UIColor.redColor(), rightColor: UIColor.redColor(), duration: 1.0, buzzerFrequency: freqFromSlider(), buzzerVolume: selectedBuzzerVolume())
+        if (funikiManager?.isConnected)!{
+            funikiManager?.changeLeftColor(UIColor.red, rightColor: UIColor.red, duration: 1.0, buzzerFrequency: freqFromSlider(), buzzerVolume: selectedBuzzerVolume())
         }
     }
     
     @IBAction func green(sender:AnyObject!) {
-        if (funikiManager.connected){
-            funikiManager.changeLeftColor(UIColor.greenColor(), rightColor: UIColor.greenColor(), duration: 1.0, buzzerFrequency: freqFromSlider(), buzzerVolume: selectedBuzzerVolume())
+        if (funikiManager?.isConnected)!{
+            funikiManager?.changeLeftColor(UIColor.green, rightColor: UIColor.green, duration: 1.0, buzzerFrequency: freqFromSlider(), buzzerVolume: selectedBuzzerVolume())
         }
     }
     
     @IBAction func blue(sender:AnyObject!) {
-        if (funikiManager.connected){
-            funikiManager.changeLeftColor(UIColor.blueColor(), rightColor: UIColor.blueColor(), duration: 1.0, buzzerFrequency: freqFromSlider(), buzzerVolume: selectedBuzzerVolume())
+        if (funikiManager?.isConnected)!{
+            funikiManager?.changeLeftColor(UIColor.blue, rightColor: UIColor.blue, duration: 1.0, buzzerFrequency: freqFromSlider(), buzzerVolume: selectedBuzzerVolume())
         }
     }
     
     @IBAction func stop(sender:AnyObject!) {
-        funikiManager.changeLeftColor(UIColor.blackColor(), rightColor: UIColor.blackColor(), duration: 1.0)
+        funikiManager?.changeLeftColor(UIColor.black, rightColor: UIColor.black, duration: 1.0)
     }
     
     @IBAction func buzzerFrequencyChanged(sender:AnyObject!) {
@@ -134,15 +137,15 @@ class FunikiSDKViewController: UIViewController, MAFunikiManagerDelegate, MAFuni
         
         switch(selectedSegmentIndex){
         case 0:
-            volume = .Mute
+            volume = .mute
         case 1:
-            volume = .Low
+            volume = .low
         case 2:
-            volume = .Medium
+            volume = .medium
         case 3:
-            volume = .Loud
+            volume = .loud
         default:
-            volume = .Mute
+            volume = .mute
         }
         return volume!
     }
@@ -150,7 +153,7 @@ class FunikiSDKViewController: UIViewController, MAFunikiManagerDelegate, MAFuni
     func freqFromSlider()-> Int {
         let value:Int = Int(pow(self.frequencySlider.value, 2.0))
         // 雰囲気メガネが発音可能な周波数に丸めます
-        return funikiManager.roundedBuzzerFrequency(value)
+        return funikiManager!.roundedBuzzerFrequency(value)
     }
 }
 
