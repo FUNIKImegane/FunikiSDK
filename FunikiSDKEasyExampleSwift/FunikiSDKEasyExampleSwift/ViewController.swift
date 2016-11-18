@@ -17,13 +17,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func hikaru(sender: AnyObject) {
-        Funiki.changeColor(UIColor.redColor())
+    @IBAction func hikaru(_ sender: AnyObject) {
+        Funiki.change(UIColor.red)
 
     }
 
-    @IBAction func kieru(sender: AnyObject) {
-        Funiki.changeColor(UIColor.blackColor())
+    @IBAction func kieru(_ sender: AnyObject) {
+        Funiki.change(UIColor.black)
     }
 }
 
