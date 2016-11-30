@@ -39,45 +39,46 @@ class FunikiSDKMotionViewController: UIViewController, MAFunikiManagerDelegate, 
         rotYRect = rotYView.frame
         rotZRect = rotZView.frame
         
-        setBarHidden(true)
+        setBarHidden(hidden: true)
     }
         
-    override func viewWillAppear(animated: Bool) {
-        funikiManager.delegate = self
-        funikiManager.dataDelegate = self
+    override func viewWillAppear(_ animated: Bool) {
+        funikiManager?.delegate = self
+        funikiManager?.dataDelegate = self
         
         self.updateSensorSwitch()
         
         super.viewWillAppear(animated)
     }
     
-    override func shouldAutorotate() -> Bool {
+    override var shouldAutorotate: Bool{
         return false
     }
+
     
     // MARK: -
     func setBarHidden(hidden:Bool) {
-        accXView.hidden = hidden
-        accYView.hidden = hidden
-        accZView.hidden = hidden
+        accXView.isHidden = hidden
+        accYView.isHidden = hidden
+        accZView.isHidden = hidden
         
-        rotXView.hidden = hidden
-        rotYView.hidden = hidden
-        rotZView.hidden = hidden
+        rotXView.isHidden = hidden
+        rotYView.isHidden = hidden
+        rotZView.isHidden = hidden
     }
     
     func updateSensorSwitch() {
-        if funikiManager.connected {
-            sensorSwitch.enabled = true
+        if (funikiManager?.isConnected)! {
+            sensorSwitch.isEnabled = true
         }
         else {
-            sensorSwitch.enabled = false
+            sensorSwitch.isEnabled = false
             sensorSwitch.setOn(false, animated: true)
         }
     }
     
     // MARK: - MAFunikiManagerDelegate
-    func funikiManagerDidConnect(manager: MAFunikiManager!) {
+    func funikiManagerDidConnect(_ manager: MAFunikiManager!) {
         
         print("SDK Version\(MAFunikiManager.funikiSDKVersionString())")
         print("Firmware Revision\(manager.firmwareRevision)")
@@ -85,19 +86,19 @@ class FunikiSDKMotionViewController: UIViewController, MAFunikiManagerDelegate, 
         updateSensorSwitch()
     }
     
-    func funikiManagerDidDisconnect(manager: MAFunikiManager!, error: NSError!) {
+    func funikiManagerDidDisconnect(_ manager: MAFunikiManager!, error: Error!) {
         if let actualError = error {
             print(actualError)
         }
         updateSensorSwitch()
     }
     
-    func funikiManager(manager: MAFunikiManager!, didUpdateCentralState state: CBCentralManagerState) {
+    func funikiManager(_ manager: MAFunikiManager!, didUpdateCentralState state: CBCentralManagerState) {
         updateSensorSwitch()
     }
     
     // MARK: - MAFunikiManagerDataDelegate
-    func funikiManager(manager: MAFunikiManager!, didUpdateMotionData motionData: MAFunikiMotionData!) {
+    func funikiManager(_ manager: MAFunikiManager!, didUpdate motionData: MAFunikiMotionData!) {
         
         accXRect.size.width = CGFloat(motionData.acceleration.x) * baseSize.size.width
         accYRect.size.width = CGFloat(motionData.acceleration.y) * baseSize.size.width
@@ -114,15 +115,15 @@ class FunikiSDKMotionViewController: UIViewController, MAFunikiManagerDelegate, 
         self.rotZView.frame = rotZRect
     }
     
-    func funikiManager(manager: MAFunikiManager!, didPushButton buttonEventType: MAFunikiManagerButtonEventType) {
+    func funikiManager(_ manager: MAFunikiManager!, didPushButton buttonEventType: MAFunikiManagerButtonEventType) {
         
         var string = "ButtonEventType"
         switch (buttonEventType){
-        case .SinglePush:
+        case .singlePush:
             string = "ButtonEventTypeSinglePush"
             break
             
-        case .DoublePush:
+        case .doublePush:
             string = "ButtonEventTypeDoublePush"
             
         default:
@@ -135,15 +136,15 @@ class FunikiSDKMotionViewController: UIViewController, MAFunikiManagerDelegate, 
     }
     
     // MARK: - Action
-    @IBAction func switchDidChange(sender:UISwitch!) {
+    @IBAction func switchDidChange(_ sender:UISwitch) {
         
-        if sensorSwitch.on {
-            funikiManager.startMotionSensor()
-            setBarHidden(false)
+        if sensorSwitch.isOn {
+            funikiManager?.startMotionSensor()
+            setBarHidden(hidden: false)
         }
         else {
-            funikiManager.stopMotionSensor()
-            setBarHidden(true)
+            funikiManager?.stopMotionSensor()
+            setBarHidden(hidden: true)
         }
     }
 }

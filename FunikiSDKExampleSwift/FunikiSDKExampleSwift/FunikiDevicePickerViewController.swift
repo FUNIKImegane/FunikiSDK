@@ -15,52 +15,55 @@ class FunikiDevicePickerViewController: UITableViewController, MAFunikiManagerDe
         self.title = "雰囲気メガネを選択"
     }
     
-    override func viewWillAppear(animated: Bool) {
-        funikiManager.delegate = self
-        funikiManager.startSelectingDevice()
+    override func viewWillAppear(_ animated: Bool) {
+        funikiManager?.delegate = self
+        funikiManager?.startSelectingDevice()
         
         self.tableView.reloadData()
         
         super.viewWillAppear(animated)
     }
     
-    override func shouldAutorotate() -> Bool {
+    override var shouldAutorotate: Bool{
         return false
     }
     
+    
+    
     // MARK: - MAFunikiManagerDelegate
-    func funikiManager(manager: MAFunikiManager!, didUpdateDiscoveredPeripherals peripherals: [AnyObject]!) {
+    func funikiManager(_ manager: MAFunikiManager!, didUpdateDiscoveredPeripherals peripherals: [Any]!) {
         self.tableView.reloadData()
     }
     
     // MARK: - UITableViewDataSource/Delegate
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return funikiManager.discoveredPeripherals.count
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        let count = funikiManager!.discoveredPeripherals.count
+        return count
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("CellIdentifier", forIndexPath: indexPath) as UITableViewCell
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CellIdentifier", for: indexPath) as UITableViewCell
         
-        let discoveredPeripheral = funikiManager.discoveredPeripherals[indexPath.row] as! MADiscoveredPeripheral
+        let discoveredPeripheral = funikiManager?.discoveredPeripherals[indexPath.row] as! MADiscoveredPeripheral
         cell.textLabel?.text = discoveredPeripheral.peripheral.name
         
         return cell
     }
     
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let discoveredPeripheral = funikiManager.discoveredPeripherals[indexPath.row] as! MADiscoveredPeripheral
-        funikiManager.connectPeripheral(discoveredPeripheral)
-        funikiManager.stopSelectingDevice()
-        self.dismissViewControllerAnimated(true, completion:nil)
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let discoveredPeripheral = funikiManager?.discoveredPeripherals[indexPath.row] as! MADiscoveredPeripheral
+        funikiManager?.connect(discoveredPeripheral)
+        funikiManager?.stopSelectingDevice()
+        self.dismiss(animated: true, completion:nil)
     }
     
     // MARK: - Action
     @IBAction func cancel(sender:AnyObject!) {
-        funikiManager.stopSelectingDevice()
-        self.dismissViewControllerAnimated(true, completion: nil)
+        funikiManager?.stopSelectingDevice()
+        self.dismiss(animated: true, completion: nil)
     }
 }
