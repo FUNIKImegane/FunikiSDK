@@ -136,7 +136,7 @@ class FunikiSDKMotionViewController: UIViewController, MAFunikiManagerDelegate, 
     }
     
     // MARK: - Action
-    @IBAction func switchDidChange(sender:UISwitch!) {
+    @IBAction func switchDidChange(_ sender:UISwitch) {
         
         if sensorSwitch.isOn {
             funikiManager?.startMotionSensor()

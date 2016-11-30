@@ -31,7 +31,7 @@ class FunikiDevicePickerViewController: UITableViewController, MAFunikiManagerDe
     
     
     // MARK: - MAFunikiManagerDelegate
-    private func funikiManager(manager: MAFunikiManager!, didUpdateDiscoveredPeripherals peripherals: [AnyObject]!) {
+    func funikiManager(_ manager: MAFunikiManager!, didUpdateDiscoveredPeripherals peripherals: [Any]!) {
         self.tableView.reloadData()
     }
     

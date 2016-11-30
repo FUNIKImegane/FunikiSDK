@@ -61,7 +61,7 @@ class FunikiSDKViewController: UIViewController, MAFunikiManagerDelegate, MAFuni
         
         updateConnectionStatus()
         updateBatteryLevel()
-        buzzerFrequencyChanged(sender: nil)
+        buzzerFrequencyChanged(nil)
         
         super.viewWillAppear(animated)
     }
@@ -69,8 +69,8 @@ class FunikiSDKViewController: UIViewController, MAFunikiManagerDelegate, MAFuni
 
     // MARK: - MAFunikiManagerDelegate
     func funikiManagerDidConnect(_ manager: MAFunikiManager!) {
-        print("SDK Version\(MAFunikiManager.funikiSDKVersionString())")
-        print("Firmware Revision\(manager.firmwareRevision)")
+        print("SDK Version\(MAFunikiManager.funikiSDKVersionString()!)")
+        print("Firmware Revision\(manager.firmwareRevision!)")
         updateConnectionStatus()
         updateBatteryLevel()
     }
@@ -84,7 +84,7 @@ class FunikiSDKViewController: UIViewController, MAFunikiManagerDelegate, MAFuni
         updateBatteryLevel()
     }
     
-    private func funikiManager(manager: MAFunikiManager!, didUpdateBatteryLevel batteryLevel: MAFunikiManagerBatteryLevel) {
+    func funikiManager(_ manager: MAFunikiManager!, didUpdate batteryLevel: MAFunikiManagerBatteryLevel) {
         updateBatteryLevel()
     }
     
@@ -94,7 +94,7 @@ class FunikiSDKViewController: UIViewController, MAFunikiManagerDelegate, MAFuni
     }
     
     // MARK: - MAFunikiManagerDataDelegate
-    private func funikiManager(manager: MAFunikiManager!, didUpdateMotionData motionData: MAFunikiMotionData!) {
+    func funikiManager(_ manager: MAFunikiManager!, didUpdate motionData: MAFunikiMotionData!) {
         print(motionData)
     }
     
@@ -102,30 +102,29 @@ class FunikiSDKViewController: UIViewController, MAFunikiManagerDelegate, MAFuni
         
     }
     
-    // MARK: - Action
-    @IBAction func red(sender:AnyObject!) {
+    @IBAction func red(_ sender: UIButton) {
         if (funikiManager?.isConnected)!{
             funikiManager?.changeLeftColor(UIColor.red, rightColor: UIColor.red, duration: 1.0, buzzerFrequency: freqFromSlider(), buzzerVolume: selectedBuzzerVolume())
         }
     }
     
-    @IBAction func green(sender:AnyObject!) {
+    @IBAction func green(_ sender:UIButton) {
         if (funikiManager?.isConnected)!{
             funikiManager?.changeLeftColor(UIColor.green, rightColor: UIColor.green, duration: 1.0, buzzerFrequency: freqFromSlider(), buzzerVolume: selectedBuzzerVolume())
         }
     }
     
-    @IBAction func blue(sender:AnyObject!) {
+    @IBAction func blue(_ sender:UIButton) {
         if (funikiManager?.isConnected)!{
             funikiManager?.changeLeftColor(UIColor.blue, rightColor: UIColor.blue, duration: 1.0, buzzerFrequency: freqFromSlider(), buzzerVolume: selectedBuzzerVolume())
         }
     }
     
-    @IBAction func stop(sender:AnyObject!) {
+    @IBAction func stop(_ sender:UIButton) {
         funikiManager?.changeLeftColor(UIColor.black, rightColor: UIColor.black, duration: 1.0)
     }
     
-    @IBAction func buzzerFrequencyChanged(sender:AnyObject!) {
+    @IBAction func buzzerFrequencyChanged(_ sender:Any!) {
         frequencyLabel.text = NSString(format: "%0.0ld", freqFromSlider()) as String
     }
     
