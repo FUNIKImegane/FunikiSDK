@@ -183,7 +183,6 @@
 				TargetAttributes = {
 					8C79FE041A7DBEB80091F040 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = ZQ3S6QG725;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -351,14 +350,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = ZQ3S6QG725;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FunikiSDKExampleSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FunikiSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-com.fun-iki.FunikiSDKExampleSwift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fun-iki.FunikiSDKExampleSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FunikiSDKExampleSwift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -370,14 +369,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = ZQ3S6QG725;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FunikiSDKExampleSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FunikiSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-com.fun-iki.FunikiSDKExampleSwift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fun-iki.FunikiSDKExampleSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FunikiSDKExampleSwift-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
