@@ -34,6 +34,8 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Connecting to a FUN'IKI device.</string>
 	<key>UIMainStoryboardFile</key>
 	<string>FunikiSDKExample</string>
 	<key>UIRequiredDeviceCapabilities</key>
