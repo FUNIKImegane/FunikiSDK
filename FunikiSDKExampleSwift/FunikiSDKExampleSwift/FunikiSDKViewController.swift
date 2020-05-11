@@ -30,9 +30,6 @@ class FunikiSDKViewController: UIViewController, MAFunikiManagerDelegate, MAFuni
         let batt:MAFunikiManagerBatteryLevel = (funikiManager?.batteryLevel)!
         
         switch batt {
-        case .unknown:
-            self.batteryLabel.text = "バッテリー残量:不明"
-            
         case .low:
             self.batteryLabel.text = "バッテリー残量:少ない"
             
@@ -41,7 +38,11 @@ class FunikiSDKViewController: UIViewController, MAFunikiManagerDelegate, MAFuni
             
         case .high:
             self.batteryLabel.text = "バッテリー残量:多い"
-            
+
+        case .unknown:
+            fallthrough
+        @unknown default:
+            self.batteryLabel.text = "バッテリー残量:不明"
         }
     }
 
@@ -95,7 +96,7 @@ class FunikiSDKViewController: UIViewController, MAFunikiManagerDelegate, MAFuni
     
     // MARK: - MAFunikiManagerDataDelegate
     func funikiManager(_ manager: MAFunikiManager!, didUpdate motionData: MAFunikiMotionData!) {
-        print(motionData)
+        print(motionData!)
     }
     
     func funikiManager(_ manager: MAFunikiManager!, didPushButton buttonEventType: MAFunikiManagerButtonEventType) {
