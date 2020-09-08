@@ -80,8 +80,8 @@ class FunikiSDKMotionViewController: UIViewController, MAFunikiManagerDelegate, 
     // MARK: - MAFunikiManagerDelegate
     func funikiManagerDidConnect(_ manager: MAFunikiManager!) {
         
-        print("SDK Version\(MAFunikiManager.funikiSDKVersionString())")
-        print("Firmware Revision\(manager.firmwareRevision)")
+        print("SDK Version\(String(describing: MAFunikiManager.funikiSDKVersionString()))")
+        print("Firmware Revision\(String(describing: manager.firmwareRevision))")
         
         updateSensorSwitch()
     }
